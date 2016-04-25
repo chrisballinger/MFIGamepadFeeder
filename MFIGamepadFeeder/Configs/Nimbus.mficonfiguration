@@ -1,130 +1,112 @@
 {
   "ConfigItems": [
     {
-      "Type": 6,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": null
+      "Button": 0
     },
     {
-      "Type": 2,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": null
+      "Button": 1
     },
     {
-      "Type": 3,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": null
+      "Button": 8
     },
     {
-      "Type": 4,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": null
+      "Button": 2
     },
     {
-      "Type": 5,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": null
+      "Button": 4
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 1
+      "Button": 4096
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 2
+      "Button": 8192
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 3
+      "Button": 16384
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 4
+      "Button": 32768
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 5
+      "Button": 256
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 6
+      "Button": 512
     },
     {
-      "Type": 0,
+      "Axis": 4,
       "InvertAxis": false,
       "ConvertAxis": false,
-      "TargetUsage": 54,
-      "TargetButtonId": null
+      "Button": 0
     },
     {
-      "Type": 0,
+      "Axis": 5,
       "InvertAxis": false,
       "ConvertAxis": false,
-      "TargetUsage": 55,
-      "TargetButtonId": null
+      "Button": 0
     },
     {
-      "Type": 1,
+      "Axis": 6,
       "InvertAxis": null,
       "ConvertAxis": null,
-      "TargetUsage": null,
-      "TargetButtonId": 7
+      "Button": 16
     },
     {
-      "Type": 0,
+      "Axis": 0,
       "InvertAxis": false,
       "ConvertAxis": true,
-      "TargetUsage": 48,
-      "TargetButtonId": null
+      "Button": 0
     },
     {
-      "Type": 0,
-      "InvertAxis": true,
-      "ConvertAxis": true,
-      "TargetUsage": 49,
-      "TargetButtonId": null
-    },
-    {
-      "Type": 0,
+      "Axis": 2,
       "InvertAxis": false,
       "ConvertAxis": true,
-      "TargetUsage": 51,
-      "TargetButtonId": null
+      "Button": 0
     },
     {
-      "Type": 0,
-      "InvertAxis": true,
+      "Axis": 1,
+      "InvertAxis": false,
       "ConvertAxis": true,
-      "TargetUsage": 52,
-      "TargetButtonId": null
+      "Button": 0
+    },
+    {
+      "Axis": 3,
+      "InvertAxis": false,
+      "ConvertAxis": true,
+      "Button": 0
     }
   ]
 }

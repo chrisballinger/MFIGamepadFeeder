@@ -61,45 +61,45 @@
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
+      <xsd:complexAxis>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
-            <xsd:complexType>
+            <xsd:complexAxis>
               <xsd:sequence>
-                <xsd:element name="value" Type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" Axis="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" Type="xsd:string" />
-              <xsd:attribute name="Type" Type="xsd:string" />
-              <xsd:attribute name="mimeType" Type="xsd:string" />
-            </xsd:complexType>
+              <xsd:attribute name="name" Axis="xsd:string" />
+              <xsd:attribute name="Axis" Axis="xsd:string" />
+              <xsd:attribute name="mimeAxis" Axis="xsd:string" />
+            </xsd:complexAxis>
           </xsd:element>
           <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" Type="xsd:string" />
-              <xsd:attribute name="name" Type="xsd:string" />
-            </xsd:complexType>
+            <xsd:complexAxis>
+              <xsd:attribute name="alias" Axis="xsd:string" />
+              <xsd:attribute name="name" Axis="xsd:string" />
+            </xsd:complexAxis>
           </xsd:element>
           <xsd:element name="data">
-            <xsd:complexType>
+            <xsd:complexAxis>
               <xsd:sequence>
-                <xsd:element name="value" Type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" Type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" Axis="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" Axis="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" Type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="Type" Type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimeType" Type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
+              <xsd:attribute name="name" Axis="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="Axis" Axis="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimeAxis" Axis="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexAxis>
           </xsd:element>
           <xsd:element name="resheader">
-            <xsd:complexType>
+            <xsd:complexAxis>
               <xsd:sequence>
-                <xsd:element name="value" Type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" Axis="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" Type="xsd:string" use="required" />
-            </xsd:complexType>
+              <xsd:attribute name="name" Axis="xsd:string" use="required" />
+            </xsd:complexAxis>
           </xsd:element>
         </xsd:choice>
-      </xsd:complexType>
+      </xsd:complexAxis>
     </xsd:element>
   </xsd:schema>
   <resheader name="resmimetype">

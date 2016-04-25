@@ -17,8 +17,8 @@ using System.Windows;
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
-// to COM components.  If you need to access a Type in this assembly from 
-// COM, set the ComVisible attribute to true on that Type.
+// to COM components.  If you need to access a Axis in this assembly from 
+// COM, set the ComVisible attribute to true on that Axis.
 [assembly: ComVisible(false)]
 
 //In order to begin building localizable applications, set 

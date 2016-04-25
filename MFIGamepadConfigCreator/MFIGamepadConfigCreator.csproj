@@ -50,9 +50,6 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="vJoyInterfaceWrap">
-      <HintPath>..\..\..\..\..\..\Downloads\vJoy216SDK-191015\SDK\c#\x64\vJoyInterfaceWrap.dll</HintPath>
-    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -113,6 +110,10 @@
     <ProjectReference Include="..\MFIGamepadShared\MFIGamepadShared.csproj">
       <Project>{35c01170-5735-4aac-bb97-aa52a735b5a5}</Project>
       <Name>MFIGamepadShared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ScpDriverInterface\ScpDriverInterface.csproj">
+      <Project>{4BC2A4D1-CE08-4A6D-B7ED-C3326EC21F69}</Project>
+      <Name>ScpDriverInterface</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

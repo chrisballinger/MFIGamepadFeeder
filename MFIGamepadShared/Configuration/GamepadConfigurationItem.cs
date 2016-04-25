@@ -1,22 +1,23 @@
-﻿namespace MFIGamepadFeeder.Gamepads.Configuration
+﻿using ScpDriverInterface;
+
+namespace MFIGamepadShared.Configuration
 {
-    public enum GamepadItemType
+    public enum GamepadAxis
     {
-        Axis,
-        Button,
-        DPadUp,
-        DPadRight,
-        DPadDown,
-        DPadLeft,
-        Empty
+        AxisLx,
+        AxisRx,
+        AxisLy,
+        AxisRy,
+        AxisLt,
+        AxisRt,
+        Empty,
     }
 
     public class GamepadConfigurationItem
     {
-        public GamepadItemType Type { get; set; }
+        public GamepadAxis Axis { get; set; }
         public bool? InvertAxis { get; set; }
         public bool? ConvertAxis { get; set; }
-        public HID_USAGES? TargetUsage { get; set; }
-        public uint? TargetButtonId { get; set; }
+        public X360Buttons Button { get; set; }
     }
 }

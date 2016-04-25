@@ -10,6 +10,7 @@ using MFIGamepadFeeder.Properties;
 using MFIGamepadShared;
 using MFIGamepadShared.Configuration;
 using Newtonsoft.Json;
+using ScpDriverInterface;
 
 namespace MFIGamepadFeeder.Gamepads
 {
@@ -17,8 +18,7 @@ namespace MFIGamepadFeeder.Gamepads
     {
         private readonly HidDeviceLoader _hidDeviceLoader;
 
-        private readonly Thread _currentDeviceUpdateThread
-            ;
+        private readonly Thread _currentDeviceUpdateThread;
 
         private Thread _currentGamepadThread;
 
@@ -123,6 +123,11 @@ namespace MFIGamepadFeeder.Gamepads
                 return;
             }
 
+            var bus = new ScpBus();
+            bus.Unplug((int) gamePadId);
+            Thread.Sleep(2000);
+            bus.PlugIn((int) gamePadId);
+
             var gamepad = new Gamepad(config, gamePadId);
             gamepad.ErrorOccuredEvent += Gamepad_ErrorOccuredEvent;
 
@@ -150,7 +155,8 @@ namespace MFIGamepadFeeder.Gamepads
 
                     if (count > 0)
                     {
-                        gamepad.UpdateState(bytes);
+                        var controller = gamepad.UpdateState(bytes);
+                        bus.Report((int) gamePadId, controller.GetReport());
                     }
                 }
             }
